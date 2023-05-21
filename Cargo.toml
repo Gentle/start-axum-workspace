@@ -9,7 +9,6 @@ opt-level = 'z'
 
 [workspace.dependencies]
 leptos = { version = "0.3", default-features = false }
-leptos_dom = { version = "0.3", default-features = false }
 leptos_axum = { version = "0.3" }
 log = "0.4.17"
 
