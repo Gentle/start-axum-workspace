@@ -9,15 +9,9 @@ opt-level = 'z'
 
 [workspace.dependencies]
 leptos = { version = "0.3", default-features = false }
-leptos_meta = { version = "0.3", default-features = false }
-leptos_router = { version = "0.3", default-features = false }
 leptos_dom = { version = "0.3", default-features = false }
 leptos_axum = { version = "0.3" }
-
-cfg-if = "1.0.0"
-http = "0.2.9"
 log = "0.4.17"
-thiserror = "1.0.40"
 
 # See https://github.com/akesson/cargo-leptos for documentation of all the parameters.
 

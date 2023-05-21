@@ -7,13 +7,13 @@ edition = "2021"
 
 [dependencies]
 leptos.workspace = true
-leptos_meta.workspace = true
-leptos_router.workspace = true
+leptos_meta = { version = "0.3", default-features = false }
+leptos_router = { version = "0.3", default-features = false }
 leptos_axum = { workspace = true, optional = true }
 
-http.workspace = true
-cfg-if.workspace = true
-thiserror.workspace = true
+http = "0.2.9"
+cfg-if = "1.0.0"
+thiserror = "1.0.40"
 
 [features]
 default = []
