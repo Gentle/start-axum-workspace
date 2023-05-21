@@ -10,9 +10,9 @@ app = { path = "../app", default-features = false, features = ["ssr"] }
 leptos = { workspace = true, features = [ "ssr" ]}
 leptos_axum.workspace = true
 
-axum.workspace = true
-simple_logger.workspace = true
-tokio.workspace = true
-tower.workspace = true
-tower-http.workspace = true
+axum = "0.6.11"
+simple_logger = "4.1.0"
+tokio = { version = "1.26.0", features = ["full"] }
+tower = { version = "0.4.13", features = ["full"] }
+tower-http = { version = "0.4.0", features = ["full"] }
 log.workspace = true

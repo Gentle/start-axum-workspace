@@ -14,15 +14,10 @@ leptos_router = { version = "0.3", default-features = false }
 leptos_dom = { version = "0.3", default-features = false }
 leptos_axum = { version = "0.3" }
 
-axum = "0.6.11"
 cfg-if = "1.0.0"
 http = "0.2.9"
 log = "0.4.17"
-simple_logger = "4.1.0"
 thiserror = "1.0.40"
-tokio = { version = "1.26.0", features = ["full"] }
-tower = { version = "0.4.13", features = ["full"] }
-tower-http = { version = "0.4.0", features = ["full"] }
 
 # See https://github.com/akesson/cargo-leptos for documentation of all the parameters.
 
