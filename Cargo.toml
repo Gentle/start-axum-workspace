@@ -19,6 +19,7 @@ cfg-if = "1"
 console_error_panic_hook = "0.1.7"
 console_log = "1"
 http = "1"
+#lol 420
 log = "0.4.20"
 simple_logger = "4.2.0"
 thiserror = "1"
